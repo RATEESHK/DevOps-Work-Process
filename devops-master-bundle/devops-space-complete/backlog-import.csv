@@ -1,0 +1,59 @@
+ID,Work Item Type,Title 1,Title 2,Title 3,State,Story Points,Tags,Description
+,Epic,DevOps Governance Foundation,,,New,,governance,Major theme: establish the DevOps charter and standards baseline before execution work begins
+,Feature,,Create DevOps Charter,,New,,governance;Sprint0,Grouped outcome: charter published and agreed
+,User Story,,,Define DevOps charter purpose scope objectives and principles,New,2,governance;Sprint0,Use work item template. AC: charter sections published in Confluence and agreed at CoP
+,User Story,,,Define DevOps roles and responsibilities,New,2,governance;Sprint0,AC: roles page published; contact directory filled; RACI agreed
+,User Story,,,Define governance cadence and review forum,New,1,governance;Sprint0,AC: ceremony calendar booked with agendas; CoP cadence recorded
+,User Story,,,Define escalation and decision logging model,New,2,governance;Sprint0,AC: decision log page live; escalation path documented; first decisions recorded
+,Feature,,Define DevOps Standards Baseline,,New,,standards;Sprint1,Grouped outcome: repo and pipeline standards baselined
+,User Story,,,Define branch governance baseline,New,3,standards;Sprint1,AC: branch protection on all repos; convention documented
+,User Story,,,Define PR governance baseline,New,3,standards;Sprint1,AC: PR template with work item reference; reviewer rules live
+,User Story,,,Define repository documentation baseline,New,3,standards;Sprint1,AC: README template applied to all repos
+,User Story,,,Define secret handling and .gitignore governance baseline,New,5,standards;Sprint1,AC: standard .gitignore rolled out; secret scanning enabled; exposures rotated
+,User Story,,,Define dependency and vulnerability management planning baseline,New,3,standards;Sprint1,AC: severity SLAs defined; scanning in CI; triage owner named
+,User Story,,,Define pipeline lifecycle and retirement baseline,New,3,standards;Sprint1,AC: lifecycle criteria documented; retirement process agreed
+,Epic,DevOps Intake Refinement and Planning Model,,,New,,planning,Major theme: intake and readiness model
+,Feature,,Define Intake Process,,New,,planning;Sprint0,Grouped outcome: single intake route with template
+,User Story,,,Create DevOps ticket intake template,New,2,planning;Sprint0,AC: template registered in Confluence and Boards; pilot item created with it
+,User Story,,,Define mandatory fields for DevOps tickets,New,1,planning;Sprint0,AC: mandatory field list published; Not-Ready query checks them
+,User Story,,,Define supporting evidence and documentation expectations,New,2,planning;Sprint0,AC: evidence-per-state table published and enforced on board
+,Feature,,Define Refinement and Readiness Model,,New,,planning;Sprint0,Grouped outcome: DoR DoD estimation standard
+,User Story,,,Define Definition of Ready for DevOps items,New,1,planning;Sprint0,AC: DoR published; agreed at CoP; applied at next refinement
+,User Story,,,Define Definition of Done for planning items,New,1,planning;Sprint0,AC: DoD for planning vs execution published
+,User Story,,,Define estimation and dependency capture standard,New,2,planning;Sprint0,AC: sizing page agreed; reference stories linked after sprint 1
+,User Story,,,Define sprint admission criteria for DevOps work,New,1,planning;Sprint0,AC: admission checklist used at first planning
+,Feature,,Define Backlog Governance,,New,,planning;Sprint0,Grouped outcome: backlog structure and visibility
+,User Story,,,Define backlog hierarchy for DevOps work,New,1,planning;Sprint0,AC: Epic Feature Story Task hierarchy configured
+,User Story,,,Define backlog prioritisation rules,New,1,planning;Sprint0,AC: prioritisation rules published on intake page
+,User Story,,,Define how items move from backlog to sprint,New,1,planning;Sprint0,AC: state flow and movers table configured on board
+,User Story,,,Define dashboards and queries for DevOps planning visibility,New,3,planning;Sprint0,AC: six queries live (backlog/not-ready/ready/blocked/current/traceability-gap) and pinned to dashboard
+,Epic,DevOps Communication and Knowledge Hub,,,New,,communication,Major theme: Confluence hub and communication model
+,Feature,,Build Confluence Knowledge Hub,,New,,communication;Sprint0,Grouped outcome: space live with all pages
+,User Story,,,Create DevOps charter landing page,New,2,communication;Sprint0,AC: space home with children display and labels
+,User Story,,,Create intake and planning process page,New,1,communication;Sprint0,AC: page pasted and published
+,User Story,,,Create standards and governance page,New,1,communication;Sprint0,AC: page pasted and published
+,User Story,,,Create FAQ and how to engage DevOps page,New,1,communication;Sprint0,AC: FAQ seeded with first five questions
+,User Story,,,Create decision log page,New,1,communication;Sprint0,AC: decision log live with first entries
+,Feature,,Define Communication Model,,New,,communication;Sprint0,Grouped outcome: channels and meeting rules
+,User Story,,,Define approved communication channels for DevOps work,New,1,communication;Sprint0,AC: channel table published on operating model page
+,User Story,,,Define rule for moving decisions from chat to work items or Confluence,New,1,communication;Sprint0,AC: same-day rule published and announced
+,User Story,,,Define CoP usage for governance and planning review,New,1,communication;Sprint0,AC: CoP agenda template published
+,User Story,,,Define meeting outputs and ownership expectations,New,1,communication;Sprint0,AC: meeting rules published; recurring invites updated with agendas
+,Epic,GitHub and Work Item Traceability,,,New,,traceability,Major theme: end to end linkage
+,Feature,,Define GitHub Traceability Standards,,New,,traceability;Sprint0,Grouped outcome: conventions live and connection tested
+,User Story,,,Define branch naming convention linked to work item IDs,New,1,traceability;Sprint0,AC: convention published; sample branch created
+,User Story,,,Define PR template with mandatory work item reference,New,2,traceability;Sprint0,AC: PR template merged to repos; AB# link verified on test PR
+,User Story,,,Define commit message guidance for linked work,New,1,traceability;Sprint0,AC: guidance published; verified on test commit
+,User Story,,,Define evidence expectations for technical change traceability,New,1,traceability;Sprint0,AC: evidence bar published; traceability-gap query validates
+,Epic,CI/CD Assessment Remediation Planning,,,New,,remediation,Planned not executed until governance agreed
+,Feature,,Tink Payments CWA Planning,,New,,remediation;Sprint1,Decompose and plan CWA findings
+,User Story,,,Plan .gitignore governance standardisation,New,2,remediation;Sprint1,Planning story: produce sized execution items with DoR fields
+,User Story,,,Plan dependency remediation SLA model,New,2,remediation;Sprint1,Planning story: SLA proposal to CoP with decision logged
+,User Story,,,Plan vulnerability gate policy in CI/CD,New,3,remediation;Sprint1,Planning story: gate policy proposal and rollout plan
+,User Story,,,Plan stale branch lifecycle governance,New,2,remediation;Sprint1,Planning story: stale-branch criteria and automation approach
+,Feature,,Tink Payments API Planning,,New,,remediation;Sprint1,Decompose and plan API findings
+,User Story,,,Plan strengthened PR reviewer requirements,New,2,remediation;Sprint1,Planning story: reviewer model proposal per repo criticality
+,User Story,,,Plan improved repository documentation baseline,New,2,remediation;Sprint1,Planning story: gap list vs README baseline per repo
+,User Story,,,Plan cert and secret handling review approach,New,3,remediation;Sprint1,Planning story: cert.pem risk review approach and owner
+,User Story,,,Plan low usage pipeline rationalisation,New,3,remediation;Sprint1,Planning story: inventory of 17 pipelines with retire/merge/keep proposal
+,User Story,,,Plan dependency and vulnerability remediation control model,New,3,remediation;Sprint1,Planning story: automated remediation control proposal
