@@ -1,0 +1,11 @@
+auth:
+  email: you@company.com            # Atlassian account email; token comes from ATLASSIAN_API_TOKEN env var
+confluence:
+  base_url: https://YOURSITE.atlassian.net/wiki
+  space_key: DEVOPS                 # create the space in the UI first
+jira:
+  base_url: https://YOURSITE.atlassian.net
+  project_key: DEVGOV               # create the project in the UI first
+  story_issuetype: Story            # change to "Task" if your project has no Story type
+  story_points_field: ""            # e.g. customfield_10016 — find via README gotcha #3; blank = skip points
+  epic_link_field: ""               # company-managed projects only, e.g. customfield_10014; blank = use parent

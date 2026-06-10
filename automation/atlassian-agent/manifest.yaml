@@ -1,0 +1,34 @@
+sections:
+  - {key: start,     title: "🚀 01 — Start Here"}
+  - {key: work,      title: "🔁 02 — How We Work"}
+  - {key: standards, title: "📐 03 — Standards & Reference"}
+  - {key: records,   title: "🗂 04 — Records & Live Data"}
+  - {key: team,      title: "👥 05 — Team Hub"}
+
+pages:
+  - {file: A1-welcome-start-here.md,            title: "Welcome — Start Here",                          section: start,     labels: [devops, start-here]}
+  - {file: A2-how-this-doc-system-works.md,     title: "How This Documentation Works",                  section: start,     labels: [devops, meta]}
+  - {file: 20-faq-how-to-engage.md,             title: "FAQ / How to Engage DevOps",                    section: start,     labels: [devops, faq]}
+  - {file: 10-team-operating-model.md,          title: "Team Operating Model & Working Agreement",      section: work,      labels: [devops, working-agreement]}
+  - {file: 02-intake-and-planning-process.md,   title: "Intake & Planning Process",                     section: work,      labels: [devops, intake]}
+  - {file: 13-ceremonies-three-amigos.md,       title: "Sprint Ceremonies & Three Amigos",              section: work,      labels: [devops, ceremonies]}
+  - {file: A4-show-and-tell.md,                 title: "Show & Tell — Demo Accountability",             section: work,      labels: [devops, demo]}
+  - {file: 14-bugs-spikes-timeboxing.md,        title: "Bug, Spike & Timebox Policy",                   section: work,      labels: [devops, quality]}
+  - {file: 12-story-sizing.md,                  title: "Story Sizing & Estimation Guide",               section: work,      labels: [devops, estimation]}
+  - {file: 01-devops-charter.md,                title: "DevOps Charter",                                section: standards, labels: [devops, charter]}
+  - {file: 03-backlog-taxonomy-azure-boards.md, title: "Backlog Taxonomy & Boards Usage",               section: standards, labels: [devops, taxonomy]}
+  - {file: 04-github-traceability.md,           title: "GitHub / Work Item Traceability",               section: standards, labels: [devops, traceability]}
+  - {file: 05-repo-pipeline-standards.md,       title: "Repository & Pipeline Governance Standards",    section: standards, labels: [devops, standards]}
+  - {file: 06-scaled-communication-framework.md,title: "S.C.A.L.E.D. Communication Framework",          section: standards, labels: [devops, communication]}
+  - {file: 15-engineering-handbook.md,          title: "Engineering Handbook",                          section: standards, labels: [devops, handbook]}
+  - {file: 16-documentation-evidence.md,        title: "Documentation & Evidence Standard",             section: standards, labels: [devops, documentation]}
+  - {file: 18-measurement-framework.md,         title: "Measurement Framework (KPI · OKR · NPS)",       section: standards, labels: [devops, metrics]}
+  - {file: A3-link-registry.md,                 title: "Link Registry",                                 section: records,   labels: [devops, links]}
+  - {file: A5-health-check-gap-finder.md,       title: "Health Check — Gap Finder",                     section: records,   labels: [devops, health]}
+  - {file: 17-implementation-plan.md,           title: "Implementation Plan",                           section: records,   labels: [devops, plan]}
+  - {file: 08-governance-backlog.md,            title: "DevOps Governance Backlog",                     section: records,   labels: [devops, backlog]}
+  - {file: 07-work-item-template.md,            title: "DevOps Work Item Template",                     section: records,   labels: [devops, template]}
+  - {file: 22-cicd-assessment-findings.md,      title: "CI/CD Assessment — Findings & Remediation",     section: records,   labels: [devops, assessment]}
+  - {file: 11-roles-goals-kpis.md,              title: "Roles, Goals & KPIs",                           section: team,      labels: [devops, roles]}
+  - {file: 19-extended-roles.md,                title: "Extended Roles",                                section: team,      labels: [devops, roles]}
+  - {file: 21-cop-agenda-launch.md,             title: "CoP Agenda & Launch Kit",                       section: team,      labels: [devops, cop]}

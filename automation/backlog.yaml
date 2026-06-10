@@ -1,0 +1,72 @@
+epics:
+  - summary: "DevOps Governance Foundation"
+    labels: [governance]
+    stories:
+      - {summary: "Define DevOps charter purpose, scope, objectives, and principles", points: 2, labels: [Sprint0]}
+      - {summary: "Define DevOps roles and responsibilities", points: 2, labels: [Sprint0]}
+      - {summary: "Define governance cadence and review forum", points: 1, labels: [Sprint0]}
+      - {summary: "Define escalation and decision logging model", points: 2, labels: [Sprint0]}
+      - {summary: "Define branch governance baseline", points: 3, labels: [Sprint1]}
+      - {summary: "Define PR governance baseline (minimum 2 reviewers, code owners)", points: 3, labels: [Sprint1],
+         description: "Assessment F-04: API repo required only 1 reviewer. Raise to minimum 2 with mandatory approval and code-owner reviews."}
+      - {summary: "Define repository documentation baseline incl. integration points", points: 3, labels: [Sprint1],
+         description: "Assessment F-05: API README is template-only. Baseline must cover purpose, architecture, dependencies, CI/CD process, Tink/Payments integration points."}
+      - {summary: "Define secret handling and .gitignore governance baseline with CI validation", points: 5, labels: [Sprint1],
+         description: "Assessment F-02/F-06: .gitignore must be validated in CI (fail build if excluded patterns are committed); exclude certs (*.pem, *.per), env configs, secrets."}
+      - {summary: "Define dependency and vulnerability management baseline (SLA: Crit/High <7d, Mod <14d)", points: 3, labels: [Sprint1],
+         description: "Assessment F-01/F-07: enable Dependabot or equivalent; SLAs per report recommendation."}
+      - {summary: "Define pipeline lifecycle and retirement baseline (quarterly review, named owners)", points: 3, labels: [Sprint1]}
+
+  - summary: "DevOps Intake, Refinement, and Planning Model"
+    labels: [planning]
+    stories:
+      - {summary: "Create DevOps ticket intake template", points: 2, labels: [Sprint0]}
+      - {summary: "Define mandatory fields for DevOps tickets", points: 1, labels: [Sprint0]}
+      - {summary: "Define supporting evidence and documentation expectations", points: 2, labels: [Sprint0]}
+      - {summary: "Define Definition of Ready for DevOps items", points: 1, labels: [Sprint0]}
+      - {summary: "Define Definition of Done for planning items", points: 1, labels: [Sprint0]}
+      - {summary: "Define estimation and dependency capture standard", points: 2, labels: [Sprint0]}
+      - {summary: "Define sprint admission criteria for DevOps work", points: 1, labels: [Sprint0]}
+      - {summary: "Define backlog hierarchy for DevOps work", points: 1, labels: [Sprint0]}
+      - {summary: "Define backlog prioritisation rules", points: 1, labels: [Sprint0]}
+      - {summary: "Define how items move from backlog to sprint", points: 1, labels: [Sprint0]}
+      - {summary: "Define dashboards and queries for DevOps planning visibility", points: 3, labels: [Sprint0]}
+
+  - summary: "DevOps Communication and Knowledge Hub"
+    labels: [communication]
+    stories:
+      - {summary: "Publish Confluence space (all layers and pages)", points: 5, labels: [Sprint0]}
+      - {summary: "Create Contacts and Decisions databases; embed on key pages", points: 2, labels: [Sprint0]}
+      - {summary: "Create Work Lifecycle and Retro whiteboards", points: 1, labels: [Sprint0]}
+      - {summary: "Fill Link Registry and wire smart-link embeds on Health Check", points: 2, labels: [Sprint0]}
+      - {summary: "Define approved communication channels and meeting rules", points: 1, labels: [Sprint0]}
+      - {summary: "Define rule for moving decisions from chat to Decisions database", points: 1, labels: [Sprint0]}
+      - {summary: "Adopt Show & Tell demo accountability at sprint review", points: 1, labels: [Sprint0]}
+
+  - summary: "GitHub and Work Item Traceability"
+    labels: [traceability]
+    stories:
+      - {summary: "Define branch naming convention linked to work item IDs", points: 1, labels: [Sprint0]}
+      - {summary: "Define PR template with mandatory work item reference", points: 2, labels: [Sprint0]}
+      - {summary: "Define commit message guidance for linked work", points: 1, labels: [Sprint0]}
+      - {summary: "Define evidence expectations for technical change traceability", points: 1, labels: [Sprint0]}
+
+  - summary: "CI/CD Assessment Remediation (22/05/2026)"
+    labels: [remediation]
+    stories:
+      - {summary: "CWA: standardise .gitignore + CI validation gate (F-02)", points: 3, labels: [Sprint1]}
+      - {summary: "CWA: enable Dependabot + remediation SLA model (F-01)", points: 3, labels: [Sprint1]}
+      - {summary: "CWA: vulnerability gate policy in CI/CD (F-01)", points: 3, labels: [Sprint1]}
+      - {summary: "CWA: stale branch lifecycle - auto-delete merged, 30-60 day policy (F-03)", points: 2, labels: [Sprint1]}
+      - {summary: "API: enforce minimum 2 PR reviewers + code owners (F-04)", points: 2, labels: [Sprint1]}
+      - {summary: "API: README to full documentation baseline (F-05)", points: 2, labels: [Sprint1]}
+      - {summary: "API: validate/remove cert.per and extend .gitignore (F-06)", points: 3, labels: [Sprint1],
+         description: "cert.per present in repo; confirm contents, remove if unnecessary, exclude certs/env/secrets going forward."}
+      - {summary: "API: remediate open vulns #43 #46 #56 #57 within SLA (F-07)", points: 3, labels: [Sprint1],
+         description: "UUID buffer bounds (#56/#57, package.json + lock); file-type ZIP bomb (#46) and ASF infinite loop (#43) open ~2 months."}
+      - {summary: "API: rationalise 17 low-usage pipelines (F-08)", points: 5, labels: [Sprint1]}
+      - {summary: "Both: secret scanning incl. historical commits (F-09)", points: 3, labels: [Sprint1]}
+      - {summary: "Both: mandatory quality gates - lint + Sonar block merge (F-10)", points: 3, labels: [Sprint2]}
+      - {summary: "Both: pre-commit hooks - lint, secret detection, dependency checks (F-11)", points: 3, labels: [Sprint2]}
+      - {summary: "Define golden pipeline template for Tink/ICS repos (F-12)", points: 5, labels: [Sprint2]}
+      - {summary: "Audit dashboards - vuln trends, hygiene, PR compliance (F-13)", points: 5, labels: [Sprint2]}
