@@ -1,0 +1,141 @@
+PROPRIETARY SOFTWARE LICENSE AGREEMENT
+
+ALL RIGHTS RESERVED
+
+Copyright © [2026] [RATEESH KOGANTI]. All Rights Reserved.
+
+PREAMBLE
+
+This Proprietary Software License Agreement (the "Agreement" or "License") is a legally binding agreement between [AUTHOR / RIGHTS HOLDER FULL LEGAL NAME] (the "Licensor," "Author," or "Rights Holder") and any individual, entity, organization, or automated system that accesses, views, downloads, clones, forks, copies, or otherwise interacts with the software, source code, object code, documentation, assets, designs, architecture, or any other materials contained in this repository (collectively, the "Software").
+
+BY ACCESSING, VIEWING, DOWNLOADING, CLONING, FORKING, OR OTHERWISE INTERACTING WITH THE SOFTWARE IN ANY MANNER, YOU ("the User") ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY ALL TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE TO THESE TERMS, YOU MUST IMMEDIATELY CEASE ALL ACCESS TO AND USE OF THE SOFTWARE AND DESTROY ANY COPIES IN YOUR POSSESSION OR CONTROL.
+
+The presence of this Software in a publicly accessible repository does not constitute a waiver, abandonment, dedication to the public domain, or grant of any license, permission, or right beyond the narrow, revocable permission expressly stated in Section 3.1 of this Agreement.
+
+SECTION 1 — DEFINITIONS
+
+1.1 "Software" means all source code, object code, compiled binaries, scripts, algorithms, data structures, file structures, folder hierarchies, naming conventions, configuration files, documentation, comments, README files, assets, designs, user interfaces, APIs, schemas, and any other material contained in, or distributed with, this repository, in whole or in part, in any form or medium.
+
+1.2 "Underlying Logic and Architecture" means the structure, sequence, organization, design patterns, algorithmic logic, control flow, data flow, system architecture, module interaction, and overall expressive design of the Software, independent of the literal text of the code.
+
+1.3 "Derivative Work" means any work based upon, derived from, or incorporating the Software or its Underlying Logic and Architecture, in whole or in part, including without limitation: translations (into any human or programming language), ports, adaptations, refactorings, reformattings, obfuscations, transpilations, recompilations, abridgments, condensations, expansions, or any other form in which the Software may be recast, transformed, or adapted.
+
+1.4 "Use" means any access to, execution of, interaction with, reproduction of, or reliance upon the Software for any purpose whatsoever.
+
+1.5 "Commercial Purpose" means any purpose that is intended for, directed toward, or results in commercial advantage, monetary compensation, financial benefit, revenue generation, cost savings in a business context, or business operations of any kind, whether direct or indirect.
+
+SECTION 2 — OWNERSHIP AND RESERVATION OF RIGHTS
+
+2.1 Absolute Ownership. The Software is, and shall at all times remain, the sole and exclusive property of the Licensor. All right, title, and interest in and to the Software — including without limitation all copyrights, intellectual property rights, moral rights, trade secret rights, and any other proprietary rights, whether registered or unregistered, throughout the world — remain one hundred percent (100%) vested in the Licensor.
+
+2.2 No Transfer of Rights. Nothing in this Agreement, and no act of access, viewing, downloading, cloning, or forking, shall be construed as transferring, assigning, conveying, or granting to the User any ownership interest, title, or proprietary right in or to the Software. No rights are granted by implication, estoppel, exhaustion, or otherwise, except for the single narrow permission expressly stated in Section 3.1.
+
+2.3 All Rights Reserved. Any right not expressly and unambiguously granted in writing in this Agreement is expressly reserved by the Licensor.
+
+SECTION 3 — LIMITED PERMISSION GRANTED
+
+3.1 Educational Evaluation Only. The Licensor grants the User a limited, non-exclusive, non-transferable, non-sublicensable, revocable permission solely to view and read the source code of the Software, in its original unmodified form and original location, for the sole purpose of personal educational evaluation and study.
+
+3.2 Scope of Permission. The permission in Section 3.1 is the entire and exclusive scope of rights granted under this Agreement. It does not include, and shall never be construed to include, any right to use, execute, copy, modify, distribute, or exploit the Software in any other manner.
+
+3.3 Revocability. The Licensor may revoke the permission granted in Section 3.1 at any time, for any reason or no reason, with or without notice, in the Licensor's sole and absolute discretion.
+
+SECTION 4 — CORE PROHIBITIONS AND ANTI-OBFUSCATION
+
+4.1 Prohibition on Modification. The User is strictly and absolutely forbidden from modifying the Software in any capacity, form, or degree. Without limiting the generality of the foregoing, the following acts are expressly prohibited:
+
+    (a) altering, editing, amending, or revising any portion of the source code, however minor;
+
+    (b) renaming any file, directory, variable, function, class, module, or identifier;
+
+    (c) altering, reorganizing, or restructuring the folder or directory structure of the repository;
+
+    (d) translating, transpiling, or porting the code, in whole or in part, into any other programming language, framework, dialect, or runtime environment;
+
+    (e) changing the formatting, indentation, whitespace, line ordering, comment placement, or stylistic presentation of the code;
+
+    (f) applying any code obfuscation, minification, refactoring, transformation, or automated rewriting tool — including AI-assisted tools — to the Software, in whole or in part, for any purpose, including any attempt to conceal, disguise, or launder the original logic, structure, or authorship of the Software.
+
+4.2 Anti-Circumvention of Logic and Architecture. The User is expressly prohibited from copying, reimplementing, reproducing, or recreating the Underlying Logic and Architecture of the Software — whether by defining alternative methods, rewriting equivalent functionality, mimicking the structure, sequence, and organization of the code, or by any other means — for the purpose of bypassing, evading, or circumventing the terms of this Agreement. Any such act constitutes the creation of an unauthorized Derivative Work and a direct violation of the Licensor's copyright, and shall be treated as willful infringement.
+
+4.3 Prohibition on Reverse Engineering. The User shall not reverse engineer, decompile, disassemble, or otherwise attempt to derive or reconstruct the source code, algorithms, or architecture of any compiled or distributed form of the Software, except solely to the extent such restriction is prohibited by applicable mandatory law, and then only to that minimum extent.
+
+4.4 No Derivative Works. The creation of any Derivative Work, as defined in Section 1.3, is absolutely prohibited.
+
+SECTION 5 — COMMERCIAL, DISTRIBUTION, AND PERSONAL USE RESTRICTIONS
+
+5.1 Prohibition on Distribution. The User shall not distribute, publish, disclose, transmit, transfer, share, mirror, re-host, or otherwise make available the Software, in whole or in part, in modified or unmodified form, to any third party, by any means or medium whatsoever.
+
+5.2 Prohibition on Commercial Exploitation. The User shall not, under any circumstances:
+
+    (a) sell, offer for sale, or commercially exploit the Software or any portion thereof;
+
+    (b) sub-license, relicense, or purport to grant any rights in the Software to any third party;
+
+    (c) rent, lease, lend, or loan the Software;
+
+    (d) host, deploy, or offer the Software, or any functionality derived from it, as a service, including without limitation Software-as-a-Service (SaaS), Platform-as-a-Service (PaaS), cloud hosting, API access, or any other service-based delivery model;
+
+    (e) incorporate the Software, or any portion of its code or Underlying Logic and Architecture, into any product, service, or system that is sold, licensed, or otherwise provided to third parties.
+
+5.3 Prohibition on Personal Financial Benefit and Business Use. The User shall not use the Software, or any part of its code, logic, or architecture, for personal financial benefit, monetization of any kind, commercial projects, freelance or contract work, business operations, internal business tooling, or any other Commercial Purpose, whether direct or indirect, and whether or not money changes hands.
+
+5.4 No Execution Rights Beyond Evaluation. For the avoidance of doubt, the permission granted in Section 3.1 is limited to viewing and reading. No right to compile, execute, deploy, or operate the Software is granted for any purpose other than as may be strictly incidental to bona fide educational evaluation, and never for any Commercial Purpose.
+
+SECTION 6 — DENIAL OF PERMISSIVE TERMS (NO-CONFLICT CLAUSE)
+
+6.1 Express Rejection of Open-Source Licensing. To eliminate any ambiguity, contradiction, or conflict, the Licensor hereby expressly declares that this Software is NOT open-source software, is NOT free software, is NOT dedicated to the public domain, and is NOT governed by, licensed under, or subject to any open-source, free-software, permissive, copyleft, or public-domain-equivalent license or framework of any kind.
+
+6.2 Enumerated Rejected Licenses. Without limiting the generality of Section 6.1, this Software completely REJECTS and is expressly NOT governed by, and shall never be construed as being licensed under, any of the following licenses or any version, variant, or successor thereof:
+
+    (a) Permissive licenses: MIT License; Apache License 2.0; BSD licenses (2-Clause, 3-Clause, 4-Clause, BSD-3-Clause-Clear, 0BSD); ISC License; The Unlicense; WTFPL; Boost Software License 1.0 (BSL-1.0); zlib License; PostgreSQL License; University of Illinois/NCSA Open Source License; SIL Open Font License 1.1 (OFL-1.1); Open Software License 3.0 (OSL-3.0); Mozilla Public License 2.0 (MPL-2.0); Microsoft Public License (MS-PL); LaTeX Project Public License 1.3c (LPPL-1.3c); Educational Community License 2.0 (ECL-2.0); Artistic License 2.0; Academic Free License 3.0 (AFL-3.0);
+
+    (b) Copyleft licenses: GNU General Public License (GPL) v2.0 and v3.0; GNU Affero General Public License (AGPL) v3.0; GNU Lesser General Public License (LGPL) v2.1 and v3.0; European Union Public Licence (EUPL) v1.1 and all versions;
+
+    (c) Creative Commons instruments: all Creative Commons licenses and dedications, including without limitation CC0-1.0, CC-BY-4.0, CC-BY-SA-4.0, and CC-BY-NC-ND (all versions).
+
+6.3 No Open-Source Freedoms Apply. No freedom, permission, or derivative-use right associated with any license enumerated in Section 6.2 — or with any other open-source or free-software framework — applies to this Software. Any person or entity attempting to apply, invoke, claim, or rely upon any such open-source freedom or permission with respect to this Software acts wholly without authorization, and such conduct shall constitute copyright infringement, subjecting that person or entity to immediate copyright infringement claims and all remedies available to the Licensor at law or in equity.
+
+6.4 Supremacy of This Agreement. In the event any file, header, metadata, platform default, or third-party representation suggests or implies that any license other than this Agreement applies to the Software, this Agreement shall control and supersede in all respects.
+
+SECTION 7 — ENFORCEMENT AND REMEDIES
+
+7.1 Automatic Termination. Any breach of this Agreement by the User shall result in the immediate and automatic termination of the permission granted in Section 3.1, without notice. Upon termination, the User must immediately cease all access to the Software and permanently destroy all copies, in any form, in the User's possession or control.
+
+7.2 Infringement. Any Use of the Software outside the express scope of Section 3.1, and any breach of Sections 4, 5, or 6, constitutes copyright infringement and breach of this Agreement, entitling the Licensor to pursue all available remedies, including without limitation: injunctive relief (the User acknowledging that breach causes irreparable harm for which monetary damages are inadequate), actual damages, statutory damages where available, disgorgement of profits, and recovery of attorneys' fees and costs to the fullest extent permitted by law.
+
+7.3 No Waiver. No failure or delay by the Licensor in exercising any right or remedy shall operate as a waiver thereof, nor shall any single or partial exercise of any right preclude any further exercise of that or any other right.
+
+SECTION 8 — DISCLAIMER OF WARRANTY AND LIMITATION OF LIABILITY
+
+8.1 "AS IS." THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT.
+
+8.2 Limitation of Liability. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY — WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE — ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR ANY ACCESS TO OR USE OF THE SOFTWARE.
+
+SECTION 9 — SEVERABILITY, GOVERNING LAW, AND GENERAL PROVISIONS
+
+9.1 Severability. If any provision of this Agreement is held by a court or tribunal of competent jurisdiction to be invalid, illegal, void, or unenforceable, in whole or in part, such provision shall be deemed modified to the minimum extent necessary to render it valid and enforceable while preserving the original intent of the parties to the maximum extent possible; and if such modification is not possible, the provision shall be severed. In either case, the validity, legality, and enforceability of all remaining provisions of this Agreement shall remain in full force and effect and shall not in any way be affected or impaired.
+
+9.2 Governing Law and Jurisdiction. This Agreement shall be governed by and construed in accordance with the laws of [GOVERNING JURISDICTION — e.g., the Republic of India], without regard to its conflict-of-laws principles. The User irrevocably consents to the exclusive jurisdiction and venue of the courts located in [CITY / STATE — e.g., Hyderabad, Telangana] for the resolution of any dispute arising out of or relating to this Agreement or the Software. The Licensor additionally reserves the right to enforce its intellectual property rights in any jurisdiction in which infringement occurs.
+
+9.3 International Protection. The Software is protected by copyright law and international treaties, including without limitation the Berne Convention for the Protection of Literary and Artistic Works. Unauthorized Use is prosecutable in all member jurisdictions.
+
+9.4 Entire Agreement. This Agreement constitutes the entire agreement between the Licensor and the User with respect to the Software and supersedes all prior or contemporaneous understandings, representations, or agreements, whether written or oral.
+
+9.5 Amendment. This Agreement may be amended only by a written instrument signed by the Licensor. The Licensor reserves the right to update or replace this Agreement for future versions of the Software at any time.
+
+9.6 Headings and Construction. Section headings are for convenience only and shall not affect interpretation. The words "including" and "without limitation" shall be construed as illustrative and non-exhaustive. Ambiguities shall not be construed against the drafter.
+
+9.7 Survival. Sections 2, 4, 5, 6, 7, 8, and 9 shall survive any termination or expiration of the permission granted under this Agreement.
+
+NOTICE
+
+THIS IS PROPRIETARY, CLOSED-SOURCE SOFTWARE. ALL RIGHTS RESERVED.
+
+NO LICENSE — OPEN-SOURCE OR OTHERWISE — IS GRANTED EXCEPT AS EXPRESSLY STATED IN SECTION 3.1 ABOVE.
+
+For licensing inquiries, written permission requests, or to report suspected infringement, contact:
+
+[RATEESH KOGANTI][learnngrow007@gmail.com]
+
+Copyright © [2026] [RATEESH KOGANTI]. All Rights Reserved.
